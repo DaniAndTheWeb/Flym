@@ -8,11 +8,11 @@ androidExtensions {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 32
     defaultConfig {
         applicationId "net.frju.flym"
         minSdkVersion 21
-        targetSdkVersion 30
+        targetSdkVersion 32
         versionCode 40
         versionName "2.5.6"
     }

@@ -536,6 +536,7 @@ class MainActivity : AppCompatActivity(), MainNavigator, AnkoLogger {
         }
     }
 
+    @SuppressLint("Range")
     private fun exportOpml(uri: Uri) {
         doAsync {
             try {

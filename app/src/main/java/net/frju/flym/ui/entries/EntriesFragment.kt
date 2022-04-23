@@ -43,9 +43,6 @@ import com.google.android.material.behavior.HideBottomViewOnScrollBehavior
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.fragment_entries.*
-import kotlinx.android.synthetic.main.fragment_entries.coordinator
-import kotlinx.android.synthetic.main.fragment_entries.refresh_layout
-import kotlinx.android.synthetic.main.fragment_entries.toolbar
 import kotlinx.android.synthetic.main.view_entry.view.*
 import net.fred.feedex.R
 import net.frju.flym.App

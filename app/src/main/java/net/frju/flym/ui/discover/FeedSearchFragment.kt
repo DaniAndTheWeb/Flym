@@ -29,7 +29,6 @@ import org.jetbrains.anko.uiThread
 import org.json.JSONException
 import org.json.JSONObject
 import java.util.*
-import kotlin.collections.ArrayList
 
 class FeedSearchFragment : Fragment(), AdapterView.OnItemClickListener {
 

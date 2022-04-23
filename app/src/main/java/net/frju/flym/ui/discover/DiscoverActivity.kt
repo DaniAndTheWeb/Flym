@@ -21,8 +21,7 @@ import org.jetbrains.anko.sdk21.listeners.onEditorAction
 import org.jetbrains.anko.sdk21.listeners.textChangedListener
 import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.uiThread
-import java.util.Timer
-import java.util.TimerTask
+import java.util.*
 
 
 class DiscoverActivity : AppCompatActivity(), FeedManagementInterface {

@@ -25,7 +25,6 @@ import org.jetbrains.anko.doAsync
 import org.jsoup.Jsoup
 import org.jsoup.safety.Safelist
 import java.io.File
-import java.util.ArrayList
 import java.util.regex.Pattern
 
 object HtmlUtils {

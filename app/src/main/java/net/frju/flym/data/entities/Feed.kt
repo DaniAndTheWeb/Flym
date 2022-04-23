@@ -81,7 +81,7 @@ data class Feed(
                 else -> split[0][0].toString()
             }
 
-            return letters.toUpperCase()
+            return letters.uppercase()
         }
     }
 

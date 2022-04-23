@@ -81,10 +81,10 @@ fun Context.showAlertDialog(
 ) {
     AlertDialog.Builder(this)
             .setTitle(title)
-            .setPositiveButton(android.R.string.yes) { _, _ ->
+            .setPositiveButton(android.R.string.ok) { _, _ ->
                 function()
             }
-            .setNegativeButton(android.R.string.no, null)
+            .setNegativeButton(android.R.string.cancel, null)
             .show()
 }
 

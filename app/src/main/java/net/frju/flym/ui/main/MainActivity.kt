@@ -130,7 +130,7 @@ class MainActivity : AppCompatActivity(), MainNavigator, AnkoLogger {
                 val all = FeedWithCount(feed = Feed().apply {
                     id = Feed.ALL_ENTRIES_ID
                     title = getString(R.string.all_entries)
-                }, entryCount = feeds.sumBy { it.entryCount })
+                }, entryCount = feeds.sumOf { it.entryCount })
                 newFeedGroups.add(FeedGroup(all, listOf()))
 
                 val subFeedMap = feeds.groupBy { it.feed.groupId }
@@ -386,6 +386,7 @@ class MainActivity : AppCompatActivity(), MainNavigator, AnkoLogger {
     }
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         // Forward results to EasyPermissions
         EasyPermissions.onRequestPermissionsResult(requestCode, permissions, grantResults, this)
     }

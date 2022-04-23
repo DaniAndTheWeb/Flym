@@ -65,17 +65,17 @@ public class SwipeRefreshLayout extends ViewGroup {
 	};
 	private final DecelerateInterpolator mDecelerateInterpolator;
 	private final AccelerateInterpolator mAccelerateInterpolator;
-	private SwipeProgressBar mProgressBar; //the thing that shows progress is going
+	private final SwipeProgressBar mProgressBar; //the thing that shows progress is going
 	private View mTarget; //the content that gets pulled down
 	private OnRefreshListener mListener;
 	private MotionEvent mDownEvent;
 	private boolean mRefreshing = false;
-	private int mTouchSlop;
+	private final int mTouchSlop;
 	private float mDistanceToTriggerSync = -1;
 	private float mPrevY;
-	private int mMediumAnimationDuration;
+	private final int mMediumAnimationDuration;
 	private float mFromPercentage = 0;
-	private Animation mShrinkTrigger = new Animation() {
+	private final Animation mShrinkTrigger = new Animation() {
 		@Override
 		public void applyTransformation(float interpolatedTime, Transformation t) {
 			float percent = mFromPercentage + ((0 - mFromPercentage) * interpolatedTime);
@@ -89,7 +89,7 @@ public class SwipeRefreshLayout extends ViewGroup {
 			mCurrPercentage = 0;
 		}
 	};
-	private int mProgressBarHeight;
+	private final int mProgressBarHeight;
 	private int mCurrentScrollYDiff;
 	// Target is returning to its start offset because it was cancelled or a
 	// refresh was triggered.
@@ -412,7 +412,7 @@ public class SwipeRefreshLayout extends ViewGroup {
 	 * Simple AnimationListener to avoid having to implement unneeded methods in
 	 * AnimationListeners.
 	 */
-	private class BaseAnimationListener implements AnimationListener {
+	private static class BaseAnimationListener implements AnimationListener {
 		@Override
 		public void onAnimationStart(Animation animation) {
 		}

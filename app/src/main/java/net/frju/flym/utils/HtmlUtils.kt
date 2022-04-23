@@ -23,14 +23,14 @@ import net.frju.flym.App
 import net.frju.flym.service.FetcherService
 import org.jetbrains.anko.doAsync
 import org.jsoup.Jsoup
-import org.jsoup.safety.Whitelist
+import org.jsoup.safety.Safelist
 import java.io.File
 import java.util.ArrayList
 import java.util.regex.Pattern
 
 object HtmlUtils {
 
-    private val JSOUP_WHITELIST = Whitelist.relaxed().addTags("iframe", "video", "audio", "source", "track")
+    private val JSOUP_WHITELIST = Safelist.relaxed().addTags("iframe", "video", "audio", "source", "track")
             .addAttributes("iframe", "src", "frameborder")
             .addAttributes("video", "src", "controls", "poster")
             .addAttributes("audio", "src", "controls")

@@ -336,7 +336,7 @@ class MainActivity : AppCompatActivity(), MainNavigator, AnkoLogger {
         if (intent?.getBooleanExtra(EXTRA_FROM_NOTIF, false) == true && feedGroups.isNotEmpty()) {
             feedAdapter.selectedItemId = Feed.ALL_ENTRIES_ID
             goToEntriesList(feedGroups[0].feedWithCount.feed)
-            bottom_navigation.selectedItemId = R.id.unreads
+            bottom_navigation.selectedItemId = R.id.all
         }
     }
 

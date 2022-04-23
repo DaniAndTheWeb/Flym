@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/unreads"
-        android:enabled="true"
-        android:icon="@drawable/ic_unread_white_24dp"
-        android:title="@string/unreads" />
-    <item
         android:id="@+id/all"
         android:enabled="true"
         android:icon="@drawable/ic_all_white_24dp"
         android:title="@string/all" />
+    <item
+        android:id="@+id/unreads"
+        android:enabled="true"
+        android:icon="@drawable/ic_unread_white_24dp"
+        android:title="@string/unreads" />
     <item
         android:id="@+id/favorites"
         android:enabled="true"

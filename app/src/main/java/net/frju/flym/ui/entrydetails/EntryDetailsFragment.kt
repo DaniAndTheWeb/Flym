@@ -185,9 +185,9 @@ class EntryDetailsFragment : Fragment() {
                 }
                 insets
             }
-            val statusBarBackground = ResourcesCompat.getColor(resources, R.color.status_bar_background, null)
-            activity?.window?.statusBarColor = statusBarBackground
-            activity?.window?.navigationBarColor = if (context?.isGestureNavigationEnabled() == true) Color.TRANSPARENT else statusBarBackground
+            //val statusBarBackground = ResourcesCompat.getColor(resources, R.color.status_bar_background, null)
+            //activity?.window?.statusBarColor = statusBarBackground
+            //activity?.window?.navigationBarColor = if (context?.isGestureNavigationEnabled() == true) Color.TRANSPARENT else statusBarBackground
         }
 
         setEntry(arguments?.getString(ARG_ENTRY_ID)!!, arguments?.getStringArrayList(ARG_ALL_ENTRIES_IDS)!!)

@@ -1,11 +1,11 @@
 <resources>
 
     <!-- Base app theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat">
+    <style name="AppTheme" parent="Theme.MaterialComponents">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
         <item name="colorBackground">@color/colorBackground</item>
         <item name="android:windowBackground">?attr/colorBackground</item>
         <item name="colorReadState">@color/read_state</item>
@@ -18,12 +18,13 @@
         <item name="android:navigationBarColor">?attr/colorPrimaryDark</item>
         <item name="colorUnreadBadgeBackground">@color/colorPrimaryDark</item>
         <item name="colorUnreadBadgeText">@color/color_unread_black</item>
+        <item name="colorPrimaryInverse">@color/colorPrimaryInverse</item>
     </style>
 
-    <style name="AppTheme.ActionBar" parent="Theme.AppCompat">
+    <style name="AppTheme.ActionBar" parent="Theme.MaterialComponents">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
     </style>
 
     <style name="AppTheme.ActionBar.Details" parent="AppTheme.ActionBar" />
@@ -34,11 +35,11 @@
     </style>
 
     <!-- App Light theme -->
-    <style name="AppThemeLight" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppThemeLight" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryLight</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
         <item name="colorBackground">@color/colorBackgroundLight</item>
         <item name="android:windowBackground">?attr/colorBackground</item>
         <item name="colorReadState">@color/read_state_light</item>
@@ -53,10 +54,10 @@
         <item name="colorUnreadBadgeText">@color/color_unread</item>
     </style>
 
-    <style name="AppThemeLight.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppThemeLight.ActionBar" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryLight</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
     </style>
 
     <style name="AppThemeLight.ActionBar.Details" parent="AppThemeLight.ActionBar" />
@@ -68,7 +69,7 @@
     </style>
 
     <!-- Black theme -->
-    <style name="AppThemeBlack" parent="Theme.AppCompat">
+    <style name="AppThemeBlack" parent="Theme.MaterialComponents">
         <item name="colorPrimary">@color/colorPrimaryBlack</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkBlack</item>
         <item name="colorAccent">@color/colorAccentBlack</item>
@@ -86,7 +87,7 @@
         <item name="colorUnreadBadgeText">@color/colorBackgroundBlack</item>
     </style>
 
-    <style name="AppThemeBlack.ActionBar" parent="Theme.AppCompat">
+    <style name="AppThemeBlack.ActionBar" parent="Theme.MaterialComponents">
         <item name="colorPrimary">@color/colorPrimaryBlack</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkBlack</item>
         <item name="colorAccent">@color/colorAccentBlack</item>

@@ -350,9 +350,9 @@ class EntriesFragment : Fragment(R.layout.fragment_entries) {
                 }
                 insets
             }
-            //val statusBarBackground = ResourcesCompat.getColor(resources, R.color.status_bar_background, null)
-            //activity?.window?.statusBarColor = statusBarBackground
-            //activity?.window?.navigationBarColor = if (context?.isGestureNavigationEnabled() == true) Color.TRANSPARENT else statusBarBackground
+            val statusBarBackground = ResourcesCompat.getColor(resources, R.color.status_bar_background, null)
+            activity?.window?.statusBarColor = statusBarBackground
+            activity?.window?.navigationBarColor = if (context?.isGestureNavigationEnabled() == true) Color.TRANSPARENT else statusBarBackground
         } else {
             coordinator.updateLayoutParams<FrameLayout.LayoutParams> {
                 leftMargin = 0

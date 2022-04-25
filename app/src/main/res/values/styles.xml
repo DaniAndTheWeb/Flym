@@ -9,6 +9,7 @@
         <item name="colorOnPrimary">@color/colorOnPrimary</item>
         <item name="colorPrimaryContainer">@color/colorPrimaryContainer</item>
         <item name="colorOnPrimaryContainer">@color/colorOnPrimaryContainer</item>
+        <item name="colorPrimaryInverse">@color/colorPrimaryInverse</item>
 
         <item name="colorSecondary">@color/colorSecondary</item>
         <item name="colorOnSecondary">@color/colorOnSecondary</item>
@@ -74,6 +75,7 @@
         <item name="colorOnPrimary">@color/colorOnPrimaryLight</item>
         <item name="colorPrimaryContainer">@color/colorPrimaryLightContainer</item>
         <item name="colorOnPrimaryContainer">@color/colorOnPrimaryLightContainer</item>
+        <item name="colorPrimaryInverse">@color/colorPrimaryLightInverse</item>
 
         <item name="colorSecondary">@color/colorSecondaryLight</item>
         <item name="colorOnSecondary">@color/colorOnSecondaryLight</item>
@@ -126,7 +128,7 @@
     </style>
 
     <!-- Black theme -->
-    <style name="AppThemeBlack" parent="Theme.MaterialComponents">
+    <style name="AppThemeBlack" parent="Theme.Material3.Dark">
         <item name="colorPrimary">@color/colorPrimaryBlack</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkBlack</item>
         <item name="colorAccent">@color/colorAccentBlack</item>

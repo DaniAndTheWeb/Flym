@@ -6,6 +6,7 @@
     <color name="colorOnPrimary">#003730</color>
     <color name="colorPrimaryContainer">#005047</color>
     <color name="colorOnPrimaryContainer">#74f7e5</color>
+    <color name="colorPrimaryInverse">#80cbc4</color>
 
     <color name="colorSecondary">#b1ccc6</color>
     <color name="colorOnSecondary">#1c3531</color>
@@ -55,10 +56,11 @@
     <color name="status_bar_background">#00003730</color>
 
     <!-- Light Theme specific colors -->
-    <color name="colorPrimaryLight">#ffffff</color>
+    <color name="colorPrimaryLight">#006b5f</color>
     <color name="colorOnPrimaryLight">#ffffff</color>
     <color name="colorPrimaryLightContainer">#74f7e5</color>
     <color name="colorOnPrimaryLightContainer">#00201c</color>
+    <color name="colorPrimaryLightInverse">#80cbc4</color>
 
     <color name="colorSecondaryLight">#4a635f</color>
     <color name="colorOnSecondaryLight">#ffffff</color>

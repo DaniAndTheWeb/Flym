@@ -38,11 +38,6 @@
 
     <color name="selected_item_background">#4c009789</color>
 
-    <color name="colorActionBar">#1E2B29</color>
-    <!-- Invisible? -->
-    <color name="status_bar_background">#52000000</color>
-
-    <!-- Dark Theme specific colors -->
     <color name="colorPrimaryDark">#00201c</color>
 
     <color name="colorSecondaryDark">#c97b63</color>
@@ -56,8 +51,11 @@
     <color name="subtitle_dark">#8c8c8c</color>
     <color name="subtitle_border_dark">#303030</color>
 
+    <!-- Invisible? -->
+    <color name="status_bar_background">#00003730</color>
+
     <!-- Light Theme specific colors -->
-    <color name="colorPrimaryLight">#006a5f</color>
+    <color name="colorPrimaryLight">#ffffff</color>
     <color name="colorOnPrimaryLight">#ffffff</color>
     <color name="colorPrimaryLightContainer">#74f7e5</color>
     <color name="colorOnPrimaryLightContainer">#00201c</color>

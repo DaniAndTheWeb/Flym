@@ -4,6 +4,7 @@
     <style name="AppTheme" parent="Theme.Material3.Dark">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="actionBarStyle">@style/DarkActionBar</item>
         <item name="colorPrimaryDark">@color/colorOnPrimary</item>
         <item name="colorOnPrimary">@color/colorOnPrimary</item>
         <item name="colorPrimaryContainer">@color/colorPrimaryContainer</item>
@@ -45,6 +46,12 @@
         <item name="colorUnreadBadgeText">@color/color_unread_black</item>
     </style>
 
+    <style name="DarkActionBar" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/colorOnPrimary</item>
+        <item name="backgroundSplit">@color/colorOnPrimary</item>
+        <item name="backgroundStacked">@color/colorOnPrimary</item>
+    </style>
+
     <style name="AppTheme.ActionBar" parent="Theme.MaterialComponents">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorOnPrimary</item>
@@ -52,7 +59,7 @@
     </style>
 
     <style name="AppTheme.ActionBar.Details" parent="AppTheme.ActionBar">
-
+        <item name="android:background">@color/colorOnPrimary</item>
     </style>
 
     <style name="AppTheme.NoActionBar">

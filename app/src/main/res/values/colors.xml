@@ -38,6 +38,7 @@
 
     <color name="selected_item_background">#4c009789</color>
 
+    <color name="colorActionBar">#1E2B29</color>
     <!-- Invisible? -->
     <color name="status_bar_background">#52000000</color>
 
